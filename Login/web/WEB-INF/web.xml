@@ -4,6 +4,7 @@
         <welcome-file>index.html</welcome-file>
         <welcome-file>welcome.html</welcome-file>
         <welcome-file>error.html</welcome-file>
+        <welcome-file>web.xml</welcome-file>
     </welcome-file-list>
    
     <servlet>
