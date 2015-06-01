@@ -5,6 +5,8 @@
     </welcome-file-list>
    
     <servlet>
+        <description>Login Page</description>
+        <display-name>Login Page</display-name>
         <servlet-name>LoginInf</servlet-name>
         <servlet-class>controller.LoginInf</servlet-class>
     </servlet>
