@@ -13,7 +13,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginInf</servlet-name>
-        <url-pattern>/LoginInf</url-pattern>
+        <url-pattern>container/LoginInf</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
