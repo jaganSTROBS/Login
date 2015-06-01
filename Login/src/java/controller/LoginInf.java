@@ -6,7 +6,6 @@
 package controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -31,7 +30,6 @@ public class LoginInf extends HttpServlet {
         String id = request.getParameter("name");
 		String pass = request.getParameter("password");
 		response.setContentType("index.html");
-        try (PrintWriter out = response.getWriter()) {
             RequestDispatcher rd = null;
             request.setAttribute(id, "name");
             if(id.equals("name") && pass.equals("pass")){
@@ -45,8 +43,10 @@ public class LoginInf extends HttpServlet {
             }
         }
 
-	}
-}
+	
+    }
+
+
 
 
 
